@@ -7,8 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      GH_PAGES_BASE: '/akc/'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,13 +20,8 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout main
-          rm -rf docs
-          mv dist docs
-          touch docs/.nojekyll
-          git add docs
-          git commit -m 'Deploy to GitHub Pages' || echo "No changes to commit"
-          git push origin main
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
