@@ -28,6 +28,7 @@ jobs:
           git checkout main
           rm -rf docs
           mv dist docs
+          touch docs/.nojekyll
           git add docs
           git commit -m 'Deploy to GitHub Pages' || echo "No changes to commit"
           git push origin main
