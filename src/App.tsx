@@ -47,7 +47,7 @@ function App() {
               </div>
               <div>
                 <p className="text-gray-800 tracking-tight leading-snug">
-                  <span className="italic">Alumni Engagement Strategy</span>: Drived <a href="https://givingday.columbia.edu/pages/columbia-giving-day-home" target="_blank" className="text-blue-500 hover:text-blue-700 transition-colors duration-200">fundraising</a> ($24M in 24 hrs) and <a href="https://www.alumni.columbia.edu/news/revisiting-leaders-experience-2025" target="_blank" className="text-blue-500 hover:text-blue-700 transition-colors duration-200">global events</a> (600 attendees from 25 countries)
+                  <span className="italic">Alumni Engagement Strategy</span>: Drived <a href="https://givingday.columbia.edu/pages/columbia-giving-day-home" target="_blank" className="text-blue-500 hover:text-blue-700 transition-colors duration-200">fundraising</a> ($24M in 24 hrs) and <a href="https://www.alumni.columbia.edu/news/revisiting-leaders-experience-2025" target="_blank" className="text-blue-500 hover:text-blue-700 transition-colors duration-200">global events</a> (600 attendees from 25 countries).
                 </p>
               </div>
             </div>
