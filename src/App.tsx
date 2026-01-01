@@ -5,7 +5,7 @@ function App() {
         <div className="space-y-12 pt-12">
           <section>
             <h1 className="font-medium text-gray-800 tracking-tight leading-snug">
-              Hi, I'm Audrey
+              Hi, I'm Audrey.
             </h1>
             <p className="text-gray-800 tracking-tight leading-snug mt-4">
               Building communities and products while exploring the intersection of startups, VC, and tech. Currently studying industrial engineering at Columbia!
